@@ -1,0 +1,12 @@
+# train and val datasets (image directory or *.txt file with image paths)
+train: /hy-tmp/yolov7-main/data/dataset/railroadworker/images/train  # 118k images
+val: /hy-tmp/yolov7-main/data/dataset/railroadworker/images/val # 5k images
+test: /hy-tmp/yolov7-main/data/dataset/railroadworker/images/val  # 20k images for submission to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 3
+#nc: 4
+
+# class names
+names: ['vest', 'helmet', 'worker']
+#names: ['Yellow', 'Red', 'off', 'Green']
