@@ -58,7 +58,7 @@ python test.py --weights weights.pt path --data data.yaml path --batch-size$ --d
 ```
 ***
 ### **Using our trained model**  
-You can download our trained object detction model:run/xxxx
+You can download our trained object detction model:run/train/yolov7-resnet18rail-obsdm/weights/weight
 ***
 ## **Transfer learning**  
 ### **How to pretrain**  
